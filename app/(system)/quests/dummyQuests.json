@@ -1,0 +1,88 @@
+{
+  "dummyQuests": [
+    {
+      "id": "quest_01",
+      "type": "Scalability Wisdom",
+      "title": "Read 1 Engineering Blog",
+      "description": "Analyze high-level architecture from Netflix, Uber, or Discord tech blogs to expand your system design lexicon.",
+      "xp": 100
+    },
+    {
+      "id": "quest_02",
+      "type": "Latency Wisdom",
+      "title": "Design a URL Shortener",
+      "description": "Sketch a high-level design for a URL shortening service like TinyURL. Focus on database choices and hash generation.",
+      "xp": 250
+    },
+    {
+      "id": "quest_03",
+      "type": "Availability Wisdom",
+      "title": "Implement a Rate Limiter",
+      "description": "Write a simple Token Bucket or Leaky Bucket algorithm in your language of choice.",
+      "xp": 300
+    },
+    {
+      "id": "quest_04",
+      "type": "Consistency Wisdom",
+      "title": "Master the CAP Theorem",
+      "description": "Define Consistency, Availability, and Partition Tolerance. Memorize why you can only guarantee two out of the three.",
+      "xp": 150
+    },
+    {
+      "id": "quest_05",
+      "type": "Consistency Wisdom",
+      "title": "Draft a Database Schema",
+      "description": "Normalize a database schema for an e-commerce platform including Users, Products, and Orders tables.",
+      "xp": 200
+    },
+    {
+      "id": "quest_06",
+      "type": "Latency Wisdom",
+      "title": "Compare Routing Protocols",
+      "description": "Summarize the differences between HTTP, WebSockets, and Long Polling for a real-time chat application.",
+      "xp": 150
+    },
+    {
+      "id": "quest_07",
+      "type": "Scalability Wisdom",
+      "title": "Explain Consistent Hashing",
+      "description": "Draw a hash ring and demonstrate how adding or removing a database node affects key redistribution.",
+      "xp": 300
+    },
+    {
+      "id": "quest_08",
+      "type": "Latency Wisdom",
+      "title": "Deconstruct Netflix CDN",
+      "description": "Investigate Netflix Open Connect. Map out how they localize video assets to edge servers globally.",
+      "xp": 200
+    },
+    {
+      "id": "quest_09",
+      "type": "Scalability Wisdom",
+      "title": "Mock Interview: Design Twitter",
+      "description": "Treat this as a live raid. Give yourself 45 minutes to design Twitter's news feed using a fan-out architecture.",
+      "xp": 500
+    },
+    {
+      "id": "quest_10",
+      "type": "Consistency Wisdom",
+      "title": "B-Trees vs LSM Trees",
+      "description": "Research the underlying storage engines of relational databases (PostgreSQL) versus NoSQL column families (Cassandra).",
+      "xp": 250
+    },
+    {
+      "id": "quest_11",
+      "type": "Availability Wisdom",
+      "title": "Draft Microservices Auth",
+      "description": "Design an authentication flow using an API Gateway and JWT tokens for secure stateless sessions.",
+      "xp": 200
+    },
+    {
+      "id": "quest_12",
+      "type": "Latency Wisdom",
+      "title": "Deploy Local Redis Cache",
+      "description": "Spin up a local Redis instance using Docker and wire it to a simple backend API to drop response times.",
+      "xp": 350
+    }
+  ]
+}

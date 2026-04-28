@@ -1,0 +1,139 @@
+{
+  "dummyLeaderboard": [
+    {
+      "id": "u_001",
+      "leaderboardRank": 1,
+      "userName": "Sung Jin-Woo",
+      "hunterClass": "Assassin",
+      "hunterRank": "S",
+      "level": 145,
+      "xp": 9999999
+    },
+    {
+      "id": "u_002",
+      "leaderboardRank": 2,
+      "userName": "Thomas Andre",
+      "hunterClass": "Tank",
+      "hunterRank": "S",
+      "level": 120,
+      "xp": 8500000
+    },
+    {
+      "id": "u_003",
+      "leaderboardRank": 3,
+      "userName": "Liu Zhigang",
+      "hunterClass": "Fighter",
+      "hunterRank": "S",
+      "level": 115,
+      "xp": 7950000
+    },
+    {
+      "id": "u_004",
+      "leaderboardRank": 4,
+      "userName": "Christopher Reed",
+      "hunterClass": "Mage",
+      "hunterRank": "S",
+      "level": 110,
+      "xp": 6800000
+    },
+    {
+      "id": "u_005",
+      "leaderboardRank": 5,
+      "userName": "Goto Ryuji",
+      "hunterClass": "Assassin",
+      "hunterRank": "S",
+      "level": 95,
+      "xp": 5900000
+    },
+    {
+      "id": "u_006",
+      "leaderboardRank": 6,
+      "userName": "Cha Hae-In",
+      "hunterClass": "Fighter",
+      "hunterRank": "S",
+      "level": 92,
+      "xp": 5100000
+    },
+    {
+      "id": "u_007",
+      "leaderboardRank": 7,
+      "userName": "Baek Yoonho",
+      "hunterClass": "Fighter",
+      "hunterRank": "S",
+      "level": 88,
+      "xp": 4500000
+    },
+    {
+      "id": "u_008",
+      "leaderboardRank": 8,
+      "userName": "Choi Jong-In",
+      "hunterClass": "Mage",
+      "hunterRank": "S",
+      "level": 85,
+      "xp": 4250000
+    },
+    {
+      "id": "u_009",
+      "leaderboardRank": 9,
+      "userName": "Hwang Dongsoo",
+      "hunterClass": "Fighter",
+      "hunterRank": "S",
+      "level": 81,
+      "xp": 3900000
+    },
+    {
+      "id": "u_010",
+      "leaderboardRank": 10,
+      "userName": "Lim Tae-Gyu",
+      "hunterClass": "Ranger",
+      "hunterRank": "A",
+      "level": 75,
+      "xp": 2800000
+    },
+    {
+      "id": "u_011",
+      "leaderboardRank": 11,
+      "userName": "Ma Dong-Wook",
+      "hunterClass": "Tank",
+      "hunterRank": "A",
+      "level": 74,
+      "xp": 2750000
+    },
+    {
+      "id": "u_012",
+      "leaderboardRank": 12,
+      "userName": "Woo Jin-Chul",
+      "hunterClass": "Fighter",
+      "hunterRank": "A",
+      "level": 72,
+      "xp": 2600000
+    },
+    {
+      "id": "u_013",
+      "leaderboardRank": 13,
+      "userName": "System Analyst",
+      "hunterClass": "Mage",
+      "hunterRank": "B",
+      "level": 55,
+      "xp": 1150000
+    },
+    {
+      "id": "u_014",
+      "leaderboardRank": 14,
+      "userName": "Lee Ju-Hee",
+      "hunterClass": "Healer",
+      "hunterRank": "B",
+      "level": 40,
+      "xp": 500000
+    },
+    {
+      "id": "u_015",
+      "leaderboardRank": 15,
+      "userName": "Yoo Jinho",
+      "hunterClass": "Tank",
+      "hunterRank": "D",
+      "level": 25,
+      "xp": 150000
+    }
+  ]
+}

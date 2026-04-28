@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Design WhatsApp",
+    "description": "Architect a globally distributed messaging system handling 100 billion messages a day. Focus on low latency, message ordering, and offline syncing.",
+    "rank": "S",
+    "xp": 10000,
+    "targetArchitecture": ["WebSockets", "Cassandra", "Message Queues"],
+    "status": "Open",
+    "masteryQuadrant": "Latency"
+  },
+  {
+    "id": 2,
+    "title": "Design Netflix CDN",
+    "description": "Build a globally cached content delivery network to serve petabytes of high-definition video to millions of concurrent users.",
+    "rank": "S",
+    "xp": 8000,
+    "targetArchitecture": ["Edge Caching", "Consistent Hashing", "Blob Storage"],
+    "status": "Open",
+    "masteryQuadrant": "Availability"
+  },
+  {
+    "id": 3,
+    "title": "Design a Distributed Rate Limiter",
+    "description": "Protect the System. Design an API gateway component capable of distributed rate limiting across thousands of nodes.",
+    "rank": "A",
+    "xp": 5000,
+    "targetArchitecture": ["Redis", "Token Bucket", "API Gateway"],
+    "status": "Failed",
+    "masteryQuadrant": "Availability"
+  },
+  {
+    "id": 4,
+    "title": "Design a URL Shortener",
+    "description": "Implement a highly available service capable of shortening massive volumes of URLs and serving redirects instantly.",
+    "rank": "B",
+    "xp": 3000,
+    "targetArchitecture": ["Relational DB", "Base62 Encoding", "Load Balancer"],
+    "status": "Cleared",
+    "masteryQuadrant": "Scalability"
+  },
+  {
+    "id": 5,
+    "title": "Design Twitter News Feed",
+    "description": "Engineer a real-time news feed capable of fan-out on write for celebrities with millions of followers.",
+    "rank": "A",
+    "xp": 6000,
+    "targetArchitecture": ["Fan-Out On Write", "In-Memory Cache", "Graph DB"],
+    "status": "Open",
+    "masteryQuadrant": "Latency"
+  },
+  {
+    "id": 6,
+    "title": "Design a Web Crawler",
+    "description": "Architect a scalable web crawler capable of traversing and indexing billions of web pages incrementally.",
+    "rank": "C",
+    "xp": 1500,
+    "targetArchitecture": ["URL Frontier", "HTML Parsers", "Distributed Workers"],
+    "status": "Open",
+    "masteryQuadrant": "Scalability"
+  },
+  {
+    "id": 7,
+    "title": "Design Ticketmaster",
+    "description": "Design a highly concurrent system that allows millions of users to book a limited number of event tickets simultaneously without overselling.",
+    "rank": "S",
+    "xp": 12000,
+    "targetArchitecture": ["Distributed Locking", "ACID Transactions", "Queueing"],
+    "status": "Open",
+    "masteryQuadrant": "Consistency"
+  },
+  {
+    "id": 8,
+    "title": "Design a Basic Pastebin",
+    "description": "The fundamentals. Implement a basic text-storage application. Focus on database schema and simple API endpoint structuring.",
+    "rank": "E",
+    "xp": 500,
+    "targetArchitecture": ["Relational DB", "REST API", "CRUD operations"],
+    "status": "Open",
+    "masteryQuadrant": "Scalability"
+  },
+  {
+    "id": 9,
+    "title": "Personal Blog Engine",
+    "description": "Architect a basic monolithic blogging platform. Focus on rendering static content quickly to the end user.",
+    "rank": "E",
+    "xp": 600,
+    "targetArchitecture": ["Monolith", "Template Engine", "SQL"],
+    "status": "Open",
+    "masteryQuadrant": "Latency"
+  },
+  {
+    "id": 10,
+    "title": "Simple To-Do Checklist",
+    "description": "Design a strict state-machine backend for a task list app. Ensure users cannot accidentally delete other users' tasks.",
+    "rank": "E",
+    "xp": 450,
+    "targetArchitecture": ["Auth Middleware", "PostgreSQL", "Atomic Updates"],
+    "status": "Open",
+    "masteryQuadrant": "Consistency"
+  },
+  {
+    "id": 11,
+    "title": "Design User Authentication",
+    "description": "Build a secure user login flow using JWTs and secure password hashing. Prevent basic brute-force attacks.",
+    "rank": "E",
+    "xp": 750,
+    "targetArchitecture": ["Bcrypt", "JWT", "Basic Rate Limiting"],
+    "status": "Open",
+    "masteryQuadrant": "Availability"
+  },
+  {
+    "id": 12,
+    "title": "Basic File Server",
+    "description": "Set up a server mechanism to accept and retrieve basic profile picture uploads from a React frontend.",
+    "rank": "E",
+    "xp": 650,
+    "targetArchitecture": ["Reverse Proxy", "Local Block Storage", "Multi-part Forms"],
+    "status": "Open",
+    "masteryQuadrant": "Scalability"
+  },
+  {
+    "id": 13,
+    "title": "Push Notification System",
+    "description": "Design an intermediate service that can reliably send push notifications to 10,000 users without crashing.",
+    "rank": "D",
+    "xp": 1000,
+    "targetArchitecture": ["Task Queues", "APNs/FCM", "Workers"],
+    "status": "Open",
+    "masteryQuadrant": "Latency"
+  },
+  {
+    "id": 14,
+    "title": "E-Commerce Shopping Cart",
+    "description": "Architect a cart system where items do not randomly disappear, handling occasional traffic spikes.",
+    "rank": "D",
+    "xp": 1200,
+    "targetArchitecture": ["Redis Store", "Session Affinity", "RDBMS"],
+    "status": "Open",
+    "masteryQuadrant": "Consistency"
+  },
+  {
+    "id": 15,
+    "title": "Design a Metric Aggregator",
+    "description": "Build an internal tool to ingest and query simple application logs and server health metrics.",
+    "rank": "D",
+    "xp": 1100,
+    "targetArchitecture": ["Time-Series DB", "Polling vs Push", "Dashboards"],
+    "status": "Open",
+    "masteryQuadrant": "Availability"
+  }
+]
