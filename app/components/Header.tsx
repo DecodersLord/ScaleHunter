@@ -1,17 +1,33 @@
 "use client";
 import React from "react";
 
-import { useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import { HunterContext } from "../context/HunterContext";
 import { Facehash } from "facehash";
 
 import Image from "next/image";
 
 function Header() {
+  const [apiHealth, setApiHealth] = useState("");
   const context = useContext(HunterContext);
   if (!context) return null;
 
   const { hunter } = context;
+
+  useEffect(() => {
+    async function apiHealthCheck() {
+      let res = await fetch("http://localhost:5000/api/health");
+      let healthCheck = await res.json();
+
+      if (healthCheck.status !== undefined || healthCheck.status !== "") {
+        setApiHealth(healthCheck.status);
+      }
+    }
+
+    apiHealthCheck();
+
+    return () => setApiHealth("");
+  }, []);
 
   return (
     <header className="h-16 bg-surface-container-lowest border-surface-container-high flex justify-between items-center px-6">
@@ -27,6 +43,11 @@ function Header() {
           <h1 className="font-display text-2xl tracking-widest italic font-bold">
             SCALE HUNTER
           </h1>
+          {apiHealth !== "" ? (
+            <p className="text-6xl text-green-600">{apiHealth}</p>
+          ) : (
+            <p className="text-6xl text-red-600">"Error"</p>
+          )}
         </div>
       </div>
       <div className="flex items-center gap-4">
